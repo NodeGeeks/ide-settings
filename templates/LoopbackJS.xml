@@ -1,0 +1,19 @@
+<templateSet group="LoopbackJS">
+  <template name="lbRelation" value="&quot;$PROPERTY$&quot;: {&#10;  &quot;type&quot;: &quot;$RELATIONSHIP$&quot;,&#10;  &quot;model&quot;: &quot;$MODEL$&quot;&#10;}" description="creates loopback relationship in JSON" toReformat="false" toShortenFQNames="true">
+    <variable name="PROPERTY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RELATIONSHIP" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="lbProperty" value="&quot;$PROPERTY$&quot;: {&#10;  &quot;type&quot;: &quot;$DATATYPE$&quot;&#10;}" description="creates loopback relationship in JSON" toReformat="false" toShortenFQNames="true">
+    <variable name="PROPERTY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATATYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

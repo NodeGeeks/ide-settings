@@ -1,0 +1,47 @@
+<application>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:CONSOLE" />
+    <option name="STRIP_TRAILING_SPACES" value="Whole" />
+    <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
+    <option name="IS_WHITESPACES_SHOWN" value="true" />
+    <option name="IS_LEADING_WHITESPACES_SHOWN" value="false" />
+    <option name="IS_INNER_WHITESPACES_SHOWN" value="false" />
+    <option name="IS_ANIMATED_SCROLLING" value="false" />
+    <option name="IS_CAMEL_WORDS" value="true" />
+    <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
+    <option name="IS_MOUSE_CLICK_SELECTION_HONORS_CAMEL_WORDS" value="false" />
+    <option name="BIDI_TEXT_DIRECTION" value="LTR" />
+  </component>
+  <component name="LiveEditOptions" autoDelay="1000" updatePolicy="AUTO" />
+  <component name="TodoConfiguration">
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
+      <option name="FOREGROUND" value="ffeb95" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
+    <pattern icon="important" useCustomColors="true" case-sensitive="false" pattern="\bfixme\b.*">
+      <option name="FOREGROUND" value="c00a08" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="abab1c" />
+    </pattern>
+    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\bissue\b.*">
+      <option name="FOREGROUND" value="ffeb95" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
+    <pattern icon="important" useCustomColors="true" case-sensitive="false" pattern="\bbug\b.*">
+      <option name="FOREGROUND" value="c0200c" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="aba91f" />
+    </pattern>
+    <filter name="tasks">
+      <pattern index="0" />
+      <pattern index="2" />
+    </filter>
+    <filter name="issues">
+      <pattern index="1" />
+      <pattern index="3" />
+    </filter>
+  </component>
+  <component name="XmlEditorOptions">
+    <option name="showCssInlineColorPreview" value="true" />
+  </component>
+</application>

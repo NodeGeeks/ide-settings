@@ -1,0 +1,10 @@
+<application>
+  <component name="scaffangular">
+    <option name="moduleNameSuggestions">
+      <list>
+        <option value="cnsSteelSales" />
+        <option value="crm" />
+      </list>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,8 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://schemas.xmlsoap.org/soap/encoding/" location="$APPLICATION_HOME_DIR$/lib/webstorm.jar!/standardSchemas/html5/xhtml5.xsd" />
+    <resource url="http://schemas.xmlsoap.org/wsdl/" location="$USER_HOME$/Library/Caches/WebStorm11/extResources/42abd8c6_.xml" />
+    <resource url="http://schemas.xmlsoap.org/wsdl/http/" location="$USER_HOME$/Library/Caches/WebStorm11/extResources/9ecabba1_.xml" />
+    <resource url="http://schemas.xmlsoap.org/wsdl/soap/" location="$USER_HOME$/Library/Caches/WebStorm11/extResources/9f6330fe_.xml" />
+  </component>
+</application>

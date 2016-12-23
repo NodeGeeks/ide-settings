@@ -1,0 +1,27 @@
+<application>
+  <component name="WebServers">
+    <sftpAdvancedGlobalOptions>
+      <SftpAdvancedOptions hashKnownHosts="true">
+        <option name="hashHost" value="true" />
+      </SftpAdvancedOptions>
+    </sftpAdvancedGlobalOptions>
+    <option name="servers">
+      <webServer id="5ae0b962-c677-459f-96ff-6fe0c13e14ad" name="zoo-crm staging" url="http://52.39.113.222">
+        <fileTransfer host="52.39.113.222" port="22" privateKey="$USER_HOME$/Development/Security/Keys/aaron-lewis-russell.pem" accessType="SFTP" keyPair="true" username="ubuntu">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f72266d6-819f-45ca-8c2b-244157046c07" name="hosting panel" url="http://zoo-crm.com/">
+        <fileTransfer host="hosting.nodegeeks.io" port="22" privateKey="$USER_HOME$/Development/Security/Keys/aaron-lewis-russell.pem" rootFolder="/srv/zoo-crm.com" accessType="SFTP" keyPair="true" username="ubuntu">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
