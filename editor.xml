@@ -13,7 +13,7 @@
     <option name="IS_MOUSE_CLICK_SELECTION_HONORS_CAMEL_WORDS" value="false" />
     <option name="BIDI_TEXT_DIRECTION" value="LTR" />
   </component>
-  <component name="LiveEditOptions" autoDelay="1000" updatePolicy="AUTO" />
+  <component name="LiveEditOptions" autoDelay="1000" restartIfHotSwapFailed="true" updatePolicy="AUTO" />
   <component name="TodoConfiguration">
     <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
       <option name="FOREGROUND" value="ffeb95" />
