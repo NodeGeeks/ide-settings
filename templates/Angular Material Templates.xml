@@ -3,66 +3,66 @@
     <variable name="MODEL" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="JADE" value="true" />
       <option name="HTML" value="true" />
       <option name="Handlebars" value="true" />
-      <option name="JADE" value="true" />
     </context>
   </template>
   <template name="md-menu^dropdown" value="&lt;md-menu id=&quot;projects-menu&quot; md-offset=&quot;0 48&quot;&gt;&#10;                    &lt;md-button class=&quot;md-icon-button project-selector&quot; ng-click=&quot;$mdOpenMenu()&quot;&#10;                               aria-label=&quot;Select project&quot; md-menu-origin md-menu-align-target&gt;&#10;                        &lt;md-icon md-font-icon=&quot;icon-dots-horizontal&quot;&gt;&lt;/md-icon&gt;&#10;                    &lt;/md-button&gt;&#10;&#10;                    &lt;md-menu-content width=&quot;3&quot; class=&quot;md-background-bg&quot;&gt;&#10;                        &lt;md-menu-item ng-repeat=&quot;project in vm.projects&quot;&gt;&#10;                            &lt;md-button ng-click=&quot;vm.selectProject(project)&quot; aria-label=&quot;{{project.name}}&quot;&gt;&#10;                                &lt;span&#10;                                        ng-class=&quot;{'secondary-text': vm.selectedProject == project}&quot;&gt;{{project.name}}&lt;/span&gt;&#10;                            &lt;/md-button&gt;&#10;                        &lt;/md-menu-item&gt;&#10;                    &lt;/md-menu-content&gt;&#10;                &lt;/md-menu&gt;" description="Dropdown Menu" toReformat="true" toShortenFQNames="true">
     <context>
+      <option name="JADE" value="true" />
       <option name="HTML" value="true" />
       <option name="Handlebars" value="true" />
-      <option name="JADE" value="true" />
     </context>
   </template>
   <template name="md-checkbox" value="&lt;md-checkbox ng-model=&quot;$MODEL$&quot;&gt;$TEXT$&lt;/md-checkbox&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="MODEL" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="JADE" value="true" />
       <option name="HTML" value="true" />
       <option name="Handlebars" value="true" />
-      <option name="JADE" value="true" />
     </context>
   </template>
   <template name="md-progress-linear" value="&lt;md-progress-linear md-mode=&quot;$MODE$&quot; ng-value=&quot;$VALUE$&quot;&gt;&lt;/md-progress-linear&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="MODE" expression="" defaultValue="determinate" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="JADE" value="true" />
       <option name="HTML" value="true" />
       <option name="Handlebars" value="true" />
-      <option name="JADE" value="true" />
     </context>
   </template>
   <template name="md-switch" value="&lt;md-switch ng-disabled=&quot;true&quot; ng-model=&quot;$MODEL$&quot; aria-label=&quot;$TEXT$&quot;&gt;&#10;  $TEXT$&#10;&lt;/md-switch&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="MODEL" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="JADE" value="true" />
       <option name="HTML" value="true" />
       <option name="Handlebars" value="true" />
-      <option name="JADE" value="true" />
     </context>
   </template>
   <template name="md-tabs" value="&lt;div ng-cloak&gt;&#10;  &lt;md-content&gt;&#10;    &lt;md-tabs md-dynamic-height md-border-bottom&gt;&#10;      $END$&#10;    &lt;/md-tabs&gt;&#10;  &lt;/md-content&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
     <context>
+      <option name="JADE" value="true" />
       <option name="HTML" value="true" />
       <option name="Handlebars" value="true" />
-      <option name="JADE" value="true" />
     </context>
   </template>
   <template name="md-tab" value="&lt;md-tab label=&quot;$LABEL$&quot;&gt;&#10;        &lt;md-content class=&quot;md-padding&quot;&gt;&#10;          &lt;h1 class=&quot;md-display-2&quot;&gt;$LABEL$&lt;/h1&gt;&#10;          $END$&#10;        &lt;/md-content&gt;&#10;      &lt;/md-tab&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="JADE" value="true" />
       <option name="HTML" value="true" />
       <option name="Handlebars" value="true" />
-      <option name="JADE" value="true" />
     </context>
   </template>
   <template name="md-button" value="&lt;md-button class=&quot;md-raised md-primary&quot;&gt;$TEXT$&lt;/md-button&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="JADE" value="true" />
       <option name="HTML" value="true" />
       <option name="Handlebars" value="true" />
-      <option name="JADE" value="true" />
     </context>
   </template>
 </templateSet>

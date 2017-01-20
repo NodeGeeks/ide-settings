@@ -2,6 +2,7 @@
   <component name="ExportableFileTemplateSettings">
     <default_templates>
       <template name="angular view.html" reformat="true" live-template-enabled="true" />
+      <template name="basic-controller.js" reformat="true" live-template-enabled="true" />
       <template name="Grunfile.js" reformat="true" live-template-enabled="true" />
       <template name="JavaScript ES6 Class.js" reformat="true" live-template-enabled="true" />
       <template name="JavaScript File - iffe.js" reformat="true" live-template-enabled="true" />
