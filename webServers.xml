@@ -6,6 +6,14 @@
       </SftpAdvancedOptions>
     </sftpAdvancedGlobalOptions>
     <option name="servers">
+      <webServer id="ba0aaf43-f158-47e0-868e-be6cbf1b9ccb" name="snickerdoodle" url="http://192.168.1.140">
+        <fileTransfer host="192.168.1.140" port="22" privateKey="$USER_HOME$/.ssh/snickerdoodle" rootFolder="/media/rootfs" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
       <webServer id="5ae0b962-c677-459f-96ff-6fe0c13e14ad" name="zoo-crm staging" url="http://52.39.113.222">
         <fileTransfer host="52.39.113.222" port="22" privateKey="$USER_HOME$/Development/Security/Keys/aaron-lewis-russell.pem" accessType="SFTP" keyPair="true" username="ubuntu">
           <advancedOptions>
