@@ -7,9 +7,9 @@
     </sftpAdvancedGlobalOptions>
     <option name="servers">
       <webServer id="ba0aaf43-f158-47e0-868e-be6cbf1b9ccb" name="snickerdoodle" url="http://192.168.1.140">
-        <fileTransfer host="192.168.1.140" port="22" privateKey="$USER_HOME$/.ssh/snickerdoodle" rootFolder="/media/rootfs" accessType="SFTP" keyPair="true">
+        <fileTransfer host="192.168.1.140" port="22" rootFolder="/media/rootfs" accessType="SFTP">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
+            <advancedOptions dataProtectionLevel="Private" muteSftpMessages="true" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
