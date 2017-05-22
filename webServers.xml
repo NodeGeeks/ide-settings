@@ -14,16 +14,24 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="5ae0b962-c677-459f-96ff-6fe0c13e14ad" name="zoo-crm staging" url="http://52.39.113.222">
-        <fileTransfer host="52.39.113.222" port="22" privateKey="$USER_HOME$/Development/Security/Keys/aaron-lewis-russell.pem" accessType="SFTP" keyPair="true" username="ubuntu">
+      <webServer id="f72266d6-819f-45ca-8c2b-244157046c07" name="Zoo CRM - Staging" url="http://zoo-crm.com/">
+        <fileTransfer host="nodegeeks.com" port="22" privateKey="$USER_HOME$/Development/Security/Keys/aaron-lewis-russell.pem" rootFolder="/srv/zoo-crm.com" accessType="SFTP" keyPair="true" username="ubuntu">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="f72266d6-819f-45ca-8c2b-244157046c07" name="hosting panel" url="http://zoo-crm.com/">
-        <fileTransfer host="hosting.nodegeeks.io" port="22" privateKey="$USER_HOME$/Development/Security/Keys/aaron-lewis-russell.pem" rootFolder="/srv/zoo-crm.com" accessType="SFTP" keyPair="true" username="ubuntu">
+      <webServer id="421aa271-31eb-427e-ad2d-c564450b96fd" name="NodeGeeks Website" url="http://zoo-crm.com/">
+        <fileTransfer host="nodegeeks.com" port="22" privateKey="$USER_HOME$/Development/Security/Keys/aaron-lewis-russell.pem" rootFolder="/srv/nodegeeks.com" accessType="SFTP" keyPair="true" username="ubuntu">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="cb11b50a-1aa6-493f-a50d-6f020d80a084" name="All - Staging" url="http://zoo-crm.com/">
+        <fileTransfer host="nodegeeks.com" port="22" privateKey="$USER_HOME$/Development/Security/Keys/aaron-lewis-russell.pem" rootFolder="/srv" accessType="SFTP" keyPair="true" username="ubuntu">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
